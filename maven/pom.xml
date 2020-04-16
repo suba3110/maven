@@ -4,9 +4,19 @@
   <artifactId>maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-  	<maven.complier.source>1.7</maven.complier.source>
-    <maven.complier.target>1.7</maven.complier.target>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <build>
+  <plugins>
+  	<plugin>
+  		<artifactId>maven-complier-plugin</artifactId>
+  		<configuration>
+  			<source>1.7</source>
+  			<target>1.7</target>
+  		</configuration>
+   </plugin>
+  </plugins>
+  </build>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
