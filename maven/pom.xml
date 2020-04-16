@@ -56,6 +56,12 @@
     <version>2.13.0</version>
 </dependency>
 </dependencies>
-
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:C:\Users\Suba\Documents\repo</url>
+       </repository>
+   </distributionManagement>
 
 </project>
