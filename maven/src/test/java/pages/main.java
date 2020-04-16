@@ -21,7 +21,7 @@ public class main {
 	
 	@BeforeMethod
 	 @Parameters({"browser","url"})
-	 public void setup(String browser,String url) {
+	 public void setup(int browser,String url) {
 		browser obj=new browser();
 	  obj.initialize(browser, url);
 	  driver=obj.getDriver();
