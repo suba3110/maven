@@ -12,14 +12,14 @@ public class browser {
 	}
 	
 	  
-	  public void initialize(String browser, String url) {
+	  public void initialize(int browser, String url) {
 		 switch(browser) {
-		 case "chrome":
+		 case 1:
 		      System.setProperty("webdriver.chrome.driver","C:\\Users\\Suba\\Downloads\\driver\\chromedriver\\chromedriver.exe");
 		      driver=new ChromeDriver();
 		      driver.get(url);
 		      break;
-		 case "firefox":
+		 case 2:
 			  driver=new InternetExplorerDriver();
 		      driver.get(url);
 		      break;
