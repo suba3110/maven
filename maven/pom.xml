@@ -6,18 +6,7 @@
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <build>
-  <plugins>
-  	<plugin>
-  		<artifactId>maven-complier-plugin</artifactId>
-  		<configuration>
-  		<version>1.7</version>
-  			<source>1.7</source>
-  			<target>1.7</target>
-  		</configuration>
-   </plugin>
-  </plugins>
-  </build>
+
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
