@@ -86,8 +86,9 @@ public class authentication{
 			address1.sendKeys(addres1);
 			city1.sendKeys(city);
 			
+			book.close();
+			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			throw e;
 		}
 	}
@@ -112,7 +113,6 @@ public class authentication{
 				alias.sendKeys("Home");
 				register.click();
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
